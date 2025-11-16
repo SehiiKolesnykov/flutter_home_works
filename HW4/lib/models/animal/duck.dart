@@ -9,5 +9,8 @@ class Duck extends Animal with Swimming {
 
   Duck.newBorn(super.species) : super.newBorn();
 
-
+  @override
+  void swim() {
+    print('\nDuck can swim');
+  }
 }

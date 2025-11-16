@@ -9,5 +9,8 @@ class Fish extends Animal with Swimming {
 
   Fish.newBorn(super.species) : super.newBorn();
 
-
+  @override
+  void swim() {
+    print('\n$species can swim');
+  }
 }
