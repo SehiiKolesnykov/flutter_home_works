@@ -33,8 +33,8 @@ class TaskItem extends StatelessWidget {
       color: isCompleted ? Colors.grey.shade300 : Colors.white,
       child: ListTile(
         contentPadding: const EdgeInsets.symmetric(
-            horizontal: 16,
-            vertical: 14,
+          horizontal: 16,
+          vertical: 14,
         ),
 
         leading: Checkbox(
@@ -65,14 +65,22 @@ class TaskItem extends StatelessWidget {
 
         trailing: isCompleted
             ? IconButton(
-          icon: const Icon(
-            Icons.delete_outline,
-            color: Colors.redAccent,
-            size: 28,),
-          onPressed: onDelete,
-          tooltip: "Видалити",
-        )
-            : const Icon(Icons.drag_handle, color: Colors.grey, size: 28,),
+                icon: const Icon(
+                  Icons.delete_outline,
+                  color: Colors.redAccent,
+                  size: 28,
+                ),
+                onPressed: onDelete,
+                tooltip: "Видалити",
+              )
+            : Padding(
+                padding: const EdgeInsets.only(left: 12, right: 8),
+                child: const Icon(
+                  Icons.drag_handle,
+                  color: Colors.grey,
+                  size: 28,
+                ),
+              ),
 
         onTap: isCompleted ? null : onTap,
       ),
