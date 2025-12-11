@@ -10,16 +10,7 @@ class RecipeProvider with ChangeNotifier {
   List<String> get categories => List.unmodifiable(_categories);
 
   void addRecipe(Recipe recipe) {
-    final newRecipe = Recipe(
-        id: const Uuid().v4(),
-        title: recipe.title,
-        description: recipe.description,
-        ingredients: recipe.ingredients,
-        instructions: recipe.instructions,
-        category: recipe.category
-    );
-
-    _recipes.add(newRecipe);
+    _recipes.add(recipe);
     notifyListeners();
   }
 

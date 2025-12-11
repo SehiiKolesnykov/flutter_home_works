@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:uuid/uuid.dart';
 import '../models/recipe.dart';
 import '../providers/recipe_provider.dart';
 
@@ -124,7 +125,7 @@ class _RecipeFormState extends State<RecipeForm> {
 
                 if (title.isNotEmpty && description.isNotEmpty) {
                   final recipe = Recipe(
-                    id: widget.existingRecipe?.id ?? '',
+                    id: widget.existingRecipe?.id ?? Uuid().v4(),
                     title: title,
                     description: description,
                     ingredients: ingredients,
