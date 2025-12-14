@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652119807684",
+    "project_id": "flutter-hw12",
+    "storage_bucket": "flutter-hw12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652119807684:android:3257f71eb7471422671b91",
+        "android_client_info": {
+          "package_name": "com.kolesnykov.flutterHW12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOBSDTC4nsuGq4-RP52wtBVztTu3Dw0uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652119807684:android:0749cbc1958ab7d8671b91",
+        "android_client_info": {
+          "package_name": "com.kolesnykov.hw_12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOBSDTC4nsuGq4-RP52wtBVztTu3Dw0uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
