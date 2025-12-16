@@ -84,13 +84,13 @@ class _AudioScreenState extends State<AudioScreen> {
                 style: TextStyle(fontSize: 20.sp, fontWeight: FontWeight.bold),
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
-                textAlign: TextAlign.center,
+                textAlign: TextAlign.left,
               ),
               SizedBox(height: 1.h),
               Text(
                 artist,
                 style: TextStyle(fontSize: 16.sp, color: Colors.white70),
-                textAlign: TextAlign.center,
+                textAlign: TextAlign.left,
               ),
               SizedBox(height: 5.h),
 
