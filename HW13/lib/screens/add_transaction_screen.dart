@@ -25,9 +25,6 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Add Transaction'),
-      ),
       body: Padding(
         padding: EdgeInsets.all(16.sp),
         child: Form(

@@ -12,9 +12,6 @@ class SettingsScreen extends StatelessWidget {
     final TextEditingController budgetController = TextEditingController(text: settings.monthlyBudget.toString());
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Settings'),
-      ),
       body: Padding(
         padding: EdgeInsets.all(16.sp),
         child: Column(

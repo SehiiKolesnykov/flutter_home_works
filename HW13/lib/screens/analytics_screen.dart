@@ -33,9 +33,6 @@ class AnalyticsScreen extends StatelessWidget {
     final categoryExpenses = _calculateCategoryExpenses(transactions);
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Analytics'),
-      ),
       body: Padding(
         padding: EdgeInsets.all(16.sp),
         child: Column(
