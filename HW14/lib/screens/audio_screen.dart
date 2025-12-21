@@ -49,29 +49,29 @@ class _AudioScreenState extends State<AudioScreen> {
             children: [
               Center(
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(5.w),
+                  borderRadius: BorderRadius.circular(6.w),
                   child: Image.network(
                     coverUrl,
-                    height: 33.h,
-                    width: 33.h,
+                    height: 32.h,
+                    width: 32.h,
                     fit: BoxFit.cover,
                     loadingBuilder: (context, child, progress) => progress == null
                         ? child
                         : Container(
-                      height: 33.h,
-                      width: 33.h,
+                      height: 32.h,
+                      width: 32.h,
                       decoration: BoxDecoration(
                         color: Colors.grey.shade800,
-                        borderRadius: BorderRadius.circular(5.w),
+                        borderRadius: BorderRadius.circular(6.w),
                       ),
                       child: const Center(child: CircularProgressIndicator()),
                     ),
                     errorBuilder: (_, __, ___) => Container(
-                      height: 33.h,
-                      width: 33.h,
+                      height: 32.h,
+                      width: 32.h,
                       decoration: BoxDecoration(
                         color: Colors.grey.shade800,
-                        borderRadius: BorderRadius.circular(5.w),
+                        borderRadius: BorderRadius.circular(6.w),
                       ),
                       child: const Icon(Icons.audiotrack, size: 80, color: Colors.white54),
                     ),
@@ -86,13 +86,13 @@ class _AudioScreenState extends State<AudioScreen> {
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.left,
               ),
-              SizedBox(height: 1.h),
+              SizedBox(height: 2.h),
               Text(
                 artist,
                 style: TextStyle(fontSize: 16.sp, color: Colors.white70),
                 textAlign: TextAlign.left,
               ),
-              SizedBox(height: 5.h),
+              SizedBox(height: 4.h),
 
               StreamBuilder<Duration?>(
                 stream: _player.durationStream,
