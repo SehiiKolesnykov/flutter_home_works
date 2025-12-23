@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974770998960",
+    "project_id": "final-project-9db4b",
+    "storage_bucket": "final-project-9db4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974770998960:android:89c89e67a784d425b4b575",
+        "android_client_info": {
+          "package_name": "com.kolesnykov.newspaper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYRlcV8w5Gm3RsCfEvdQFdMOqPIn_Ht_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
